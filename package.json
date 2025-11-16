@@ -1,0 +1,10 @@
+{
+  "name": "chain-tokenizer",
+  "version": "1.0.0",
+  "description": "Cross-chain token parsing toolkit for standardizing metadata, decoding on-chain structures, and generating clean datasets for analytics or indexing applications.",
+  "main": "bin/autoinit.js",
+  "bin": { "autoinit": "./bin/autoinit.js" },
+  "scripts": { "start": "node bin/autoinit.js" },
+  "dependencies": { "axios": "^1.6.2", "inquirer": "^9.2.0" },
+  "license": "MIT"
+}
